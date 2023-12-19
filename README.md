@@ -1,1 +1,1 @@
-	
+# Read me generator ## Description generates a read me ## Installationusing npm ## Usageusing console ## Licenseemail
