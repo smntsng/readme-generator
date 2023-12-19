@@ -40,7 +40,7 @@ questions
   .then((response) => {
     const answers = `# ${response.Title} ## Description ${response.Description} ## Installation${response.Installation} ## Usage${response.Usage} ## License${response.License}`;
 
-    fs.writeFile(`README.md`, JSON.stringify(answers, null,`\t`), (err)=>{
+    fs.writeFile(`README.md`, (answers, null,`\t`), (err)=>{
   });
 
 });
