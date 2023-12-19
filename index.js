@@ -41,16 +41,16 @@ questions
     const answers = `# ${response.Title} 
 
     ## Description
-     <p>${response.Description} </p>
+    ${response.Description} 
 
     ## Installation 
-    <p>${response.Installation} </p>
+    ${response.Installation} 
 
     ## Usage 
-    <p>${response.Usage} </p>
+    ${response.Usage} 
 
     ## License 
-    <p>${response.License}</p>`;
+    ${response.License}`;
 
   
     fs.writeFile(`README.md`, answers, (err)=>{
