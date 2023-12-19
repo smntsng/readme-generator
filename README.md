@@ -1,4 +1,4 @@
-# Readme generator 
+# Readme Generator 
 
 ## Table of Contents
 
@@ -10,13 +10,13 @@
 6. [Questions](#Questions)
 
 ## Description
-creates a professional read me directly from the console 
+Generate a professional readme file directly from the terminal 
 
 ## Installation 
-install the inquirer package using node 
+in the terminal write the command npm install inquirer@^8.0.0 
 
 ## Usage 
-you can invoke the application using the node index.js in the console 
+Open the terminal in vscode and enter the command node index.js 
 
 ## License 
 AFL-3.0
