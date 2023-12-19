@@ -1,4 +1,4 @@
-# asdjaop 
+# Readme generator 
 
 ## Table of Contents
 
@@ -6,20 +6,24 @@
 2. [Installation](#Installation)
 3. [Usage](#Usage)
 4. [License](#License)
-5. [Questions](#Questions)
+5. [Contributing](#Contributing)
+6. [Questions](#Questions)
 
 ## Description
-aospjkdpoa 
+creates a professional read me directly from the console 
 
 ## Installation 
-asopdkopa 
+install the inquirer package using node 
 
 ## Usage 
-askodpa 
+you can invoke the application using the node index.js in the console 
 
 ## License 
-EUPL-1.1
+AFL-3.0
+
+## Contributing 
+no
 
 ## Questions 
-https://github.com/smntsngsmntsng
+https://github.com/smntsng <br/>
 simon_tsang000@hotmail.com

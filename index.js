@@ -68,6 +68,11 @@ questions
       },
       {
         type: 'input',
+        message: 'Do you want to make a contribution? ',
+        name: 'Contributing',
+    },
+      {
+        type: 'input',
         message: 'What is your github username? ',
         name: 'username',
     },
@@ -86,7 +91,8 @@ questions
 2. [Installation](#Installation)
 3. [Usage](#Usage)
 4. [License](#License)
-5. [Questions](#Questions)
+5. [Contributing](#Contributing)
+6. [Questions](#Questions)
 
 ## Description
 ${response.Description} 
@@ -100,8 +106,11 @@ ${response.Usage}
 ## License 
 ${response.License}
 
+## Contributing 
+${response.Contributing}
+
 ## Questions 
-https://github.com/smntsng${response.username}
+https://github.com/${response.username} <br/>
 ${response.email}`
 ;
 
