@@ -2,7 +2,7 @@
 const fs = require("fs");
 const path = require('path');
 
-const generateMarkdown = require("./utils/generateMarkdown");
+// const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
 
@@ -38,8 +38,21 @@ questions
       },
   ])
   .then((response) => {
-    const answers = `# ${response.Title} ## Description ${response.Description} ## Installation${response.Installation} ## Usage${response.Usage} ## License${response.License}`;
+    const answers = `# ${response.Title} 
 
+    ## Description
+     <p>${response.Description} </p>
+
+    ## Installation 
+    <p>${response.Installation} </p>
+
+    ## Usage 
+    <p>${response.Usage} </p>
+
+    ## License 
+    <p>${response.License}</p>`;
+
+  
     fs.writeFile(`README.md`, answers, (err)=>{
   });
 
@@ -48,11 +61,11 @@ questions
 
 
 
-// function to initialize program
-function init() {
+// // function to initialize program
+// function init() {
 
-}
+// }
 
-// function call to initialize program
-init();
+// // function call to initialize program
+// init();
 
