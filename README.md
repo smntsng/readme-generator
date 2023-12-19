@@ -10,7 +10,8 @@
 6. [Questions](#Questions)
 
 ## Description
-Generate a professional readme file directly from the terminal 
+Generate a professional readme file directly from the terminal <br/>
+[see video](https://drive.google.com/file/d/1sGS9e9fEwGGlKaRrXQSgyGj7paX-lEN6/view?usp=sharing)
 
 ## Installation 
 in the terminal write the command npm install inquirer@^8.0.0 
